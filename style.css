@@ -19,11 +19,18 @@ body {
 }
 
 #sign-in-sect {
+    display: flex;
     font-family: 'Roboto';
     font-size: 12px;
     float: right;
     word-spacing: 1px;
     line-height: 20px;
+}
+
+#sign-in-info {
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0 10px;
 }
 
 a {

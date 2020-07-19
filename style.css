@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@300&family=Prompt:wght@800&family=Roboto:wght@100;300&display=swap');
+
+/*-----------MAIN-INFO-----------*/
+
+html,
+body {
+    font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
+    background-color: rgb(241, 241, 252);
+}
+
+
+/*-------------HEADER------------*/
+
+header {
+    font-family: 'Roboto';
+    font-size: 12px;
+    float: right;
+    word-spacing: 1px;
+    line-height: 20px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 200px 110px;
+    margin: 15px 40px;
+}
+
+a {
+    color: rgb(46, 124, 193);
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 20px 9px 12px;
+    font-family: 'Roboto';
+    background-color: rgb(46, 124, 193);
+    color: white;
+    border: .5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lock {
+    padding: 0 10px;
+}

@@ -6,23 +6,24 @@ html,
 body {
     font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
     background-color: rgb(241, 241, 252);
+    display: block;
 }
 
 
-/*-------------HEADER------------*/
+/*-------------SIGN-IN------------*/
 
-header {
+.header-container {
+    margin: 15px 40px;
+    height: 60px;
+    border: 1px solid red;
+}
+
+#sign-in-sect {
     font-family: 'Roboto';
     font-size: 12px;
     float: right;
     word-spacing: 1px;
     line-height: 20px;
-}
-
-.header-container {
-    display: grid;
-    grid-template-columns: 200px 110px;
-    margin: 15px 40px;
 }
 
 a {
@@ -42,4 +43,24 @@ button {
 
 #lock {
     padding: 0 10px;
+}
+
+
+/*-------------SECT-TITLE------------*/
+
+header {
+    margin-top: 10%;
+    text-align: center;
+    border: 1px solid green;
+}
+
+#list {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.title {
+    display: block;
+    font-family: 'Prompt';
 }

@@ -15,11 +15,11 @@ body {
 #wrapper {
     height: 40px;
     box-sizing: border-box;
-    float: none;
 }
 
 .header-container {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -28,18 +28,16 @@ body {
     font-size: 12px;
     line-height: 20px;
     box-sizing: border-box;
-    margin: 10px 20px;
-    margin-left: 10px;
+    margin: 10px 10px;
     text-align: right;
-    float: left;
 }
 
-a {
+#nav-link {
     color: rgb(46, 124, 193);
     text-decoration: none;
 }
 
-button {
+#sign-in-btn {
     padding: 9px 20px 9px 12px;
     font-family: 'Roboto';
     background-color: rgb(46, 124, 193);
@@ -47,6 +45,7 @@ button {
     border: .5px solid black;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 #lock {

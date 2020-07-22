@@ -19,8 +19,8 @@
                 </div>
                 <div class="header-column">
                     <div>
-                        <button id="sign-in-btn" type="submit">
-                    <ion-icon id="lock" name="lock-closed"></ion-icon>Sign In</button>
+                        <button class="btn" type="submit">
+                    <ion-icon class="lock" name="lock-closed"></ion-icon>Sign In</button>
                     </div>
                 </div>
             </div>
@@ -32,24 +32,55 @@
             </div>
         </header>
         <main>
-            <div class="main-list-container">
-                <div class="list">
-
-                    <div class="space">
-                        <ion-icon class="icon" id="leaf" name="leaf-outline"></ion-icon>mint
-                    </div>
-                    <div class="space">
-                        <ion-icon class="icon" id="books" name="book-outline"></ion-icon>quickbooks
-                    </div>
-                    <div class="space">
-                        <ion-icon class="icon" id="check" name="checkmark"></ion-icon>turbotax
-                    </div>
+            <div class="list">
+                <div class="space">
+                    <ion-icon class="icon" id="leaf" name="leaf-outline"></ion-icon>mint
+                </div>
+                <div class="space">
+                    <ion-icon class="icon" id="books" name="book-outline"></ion-icon>quickbooks
+                </div>
+                <div class="space">
+                    <ion-icon class="icon" id="check" name="checkmark"></ion-icon>turbotax
                 </div>
             </div>
             <div class="survey-container">
+                <div class="container-title">
+                    <h1>Create an Intuit account</h1>
+                </div>
+                <div class="info">
+                    One account for everything Intuit, inluding Mint. <br>
+                    <a href="#"><span class="links-info">Learn more</span></a>
+                </div>
+                <div class="input-fields-container">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email"></div>
+                <label for="phone">Phone(recommended)</label>
+                <input type="tel" id="phone" name="phone">Standard call, messaging anddata rates may apply.
+                <label for="password">Password</label>
+                <input type="password" id="pass" name="password">
 
+                <div>
+                    <button class="btn" id="create-account" type="submit">
+            <ion-icon class="lock" name="lock-closed"></ion-icon>Create Account</button>
+                </div>
+
+                <div id="statement">
+                    <i>By clicking Create account, you agree to our <a href="#" class="links-info">Terms</a> and have read and acknowledge our <a href="#" class="links-info">Privacy Statement</a> </i>
+                </div>
+
+                <footer>
+                    Invisible reCAPTCHA by Google
+                    <a href="#" class="links-info">Privacy Policy</a> and
+                    <Terms href="#" class="links-info">Terms of Use</a>
+                </footer>
             </div>
         </main>
+        <section id="bottom-container">
+            <div>Legal</div>
+            <div>Privacy</div>
+            <div>Security</div>
+            <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        </section>
         <script src=" https://unpkg.com/ionicons@5.1.2/dist/ionicons.js "></script>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js "></script>
     </section>

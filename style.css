@@ -1,100 +1,120 @@
-                @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@300&family=Prompt:wght@800&family=Roboto:wght@100;300&display=swap');
-                /*-----------MAIN-INFO-----------*/
-                
-                html,
-                body {
-                    font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
-                    background-color: rgb(241, 241, 252);
-                    display: block;
-                }
-                /*-------------SIGN-IN------------*/
-                
-                #wrapper {
-                    height: 40px;
-                    box-sizing: border-box;
-                }
-                
-                .header-container {
-                    display: flex;
-                    justify-content: flex-end;
-                    width: 100%;
-                }
-                
-                .header-column {
-                    font-family: 'Roboto';
-                    font-size: 12px;
-                    line-height: 20px;
-                    box-sizing: border-box;
-                    margin: 10px 10px;
-                    text-align: right;
-                }
-                
-                #nav-link {
-                    color: rgb(46, 124, 193);
-                    text-decoration: none;
-                }
-                
-                #sign-in-btn {
-                    padding: 9px 20px 9px 12px;
-                    font-family: 'Roboto';
-                    background-color: rgb(46, 124, 193);
-                    color: white;
-                    border: .5px solid black;
-                    border-radius: 5px;
-                    cursor: pointer;
-                    margin-right: 20px;
-                }
-                
-                #lock {
-                    padding: 0 10px;
-                }
-                /*-------------MAIN-SECT-TITLE------------*/
-                
-                header {
-                    text-align: center;
-                    margin-top: 20px;
-                }
-                
-                .title {
-                    font-family: 'Prompt';
-                    margin-top: 100px;
-                    font-size: 40px;
-                    color: rgb(155, 155, 155);
-                }
-                
-                .main-list-container {
-                    text-align: center;
-                }
-                
-                .list {
-                    display: flex;
-                    justify-content: center;
-                    padding: 5px;
-                }
-                
-                .space {
-                    padding: 5px;
-                    font-size: 20px;
-                    color: rgb(92, 92, 92);
-                }
-                
-                .icon {
-                    border-radius: 50%;
-                    font-size: 15px;
-                    padding: 5px;
-                    color: white;
-                    margin: 0 5px -9px 0;
-                }
-                
-                #leaf {
-                    background-color: rgb(8, 165, 144);
-                }
-                
-                #books {
-                    background-color: rgb(41, 170, 5);
-                }
-                
-                #check {
-                    background-color: rgb(244, 10, 10);
-                }
-                /*-------------MAIN-SECT-TITLE------------*/
+            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@300&family=Prompt:wght@800&family=Roboto:wght@100;300&display=swap');
+            /*-----------MAIN-INFO-----------*/
+            
+            html,
+            body {
+                font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
+                background-color: rgb(241, 241, 252);
+                display: block;
+            }
+            /*-------------SIGN-IN------------*/
+            
+            #wrapper {
+                height: 40px;
+                box-sizing: border-box;
+            }
+            
+            .header-container {
+                display: flex;
+                justify-content: flex-end;
+                width: 100%;
+            }
+            
+            .header-column {
+                font-family: 'Roboto';
+                font-size: 12px;
+                line-height: 20px;
+                box-sizing: border-box;
+                margin: 10px 10px;
+                text-align: right;
+            }
+            
+            #nav-link {
+                color: rgb(46, 124, 193);
+                text-decoration: none;
+            }
+            
+            .btn {
+                padding: 9px 20px 9px 12px;
+                font-family: 'Roboto';
+                background-color: rgb(46, 124, 193);
+                color: white;
+                border: .5px solid black;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 20px;
+            }
+            
+            .lock {
+                padding: 0 10px;
+            }
+            /*-------------MAIN-SECT-TITLE------------*/
+            
+            main,
+            header {
+                text-align: center;
+                margin-top: 20px;
+            }
+            
+            .title {
+                font-family: 'Prompt';
+                margin-top: 100px;
+                font-size: 40px;
+                color: rgb(155, 155, 155);
+            }
+            
+            .list {
+                display: flex;
+                justify-content: center;
+                padding: 5px;
+            }
+            
+            .space {
+                padding: 5px;
+                font-size: 20px;
+                color: rgb(92, 92, 92);
+            }
+            
+            .icon {
+                border-radius: 50%;
+                font-size: 15px;
+                padding: 5px;
+                color: white;
+                margin: 0 5px -9px 0;
+            }
+            
+            #leaf {
+                background-color: rgb(8, 165, 144);
+            }
+            
+            #books {
+                background-color: rgb(41, 170, 5);
+            }
+            
+            #check {
+                background-color: rgb(244, 10, 10);
+            }
+            /*-------------MAIN-SECT-SURVEY------------*/
+            
+            .survey-container {
+                border: 1px solid rgb(201, 198, 198);
+                background-color: white;
+                margin: 20px 500px;
+                box-sizing: border-box;
+            }
+            
+            .container-title {
+                margin: 30px 0;
+                font-family: 'Nunito';
+            }
+            
+            .info {
+                font-size: 14px;
+                color: rgb(92, 92, 92);
+            }
+            
+            .links-info {
+                font-size: 12px;
+                color: rgb(15, 129, 191);
+                text-decoration: none;
+            }

@@ -25,7 +25,7 @@
                     font-size: 12px;
                     line-height: 20px;
                     box-sizing: border-box;
-                    margin: 10px 10px;
+                    margin: 10px 30px 10px -20px;
                     text-align: right;
                 }
                 
@@ -42,7 +42,6 @@
                     border: .5px solid black;
                     border-radius: 5px;
                     cursor: pointer;
-                    margin-right: 20px;
                 }
                 
                 .lock {
@@ -70,7 +69,7 @@
                 
                 .space {
                     padding: 5px;
-                    font-size: 20px;
+                    font-size: 18px;
                     color: rgb(92, 92, 92);
                 }
                 
@@ -98,16 +97,14 @@
                 .survey-container {
                     border: 1px solid rgb(201, 198, 198);
                     background-color: white;
-                    margin: 20px 500px;
+                    margin: 20px 540px;
                     box-sizing: border-box;
-                    padding: 20px;
                 }
                 
                 .container-title {
                     margin: 30px 0;
                     font-family: 'Nunito';
                     color: rgb(107, 104, 104);
-                    ;
                 }
                 
                 .info {
@@ -125,11 +122,11 @@
                 }
                 
                 .input-fields-container {
-                    margin: 30px 30px 30px 15px;
                     font-family: 'Roboto';
                     font-weight: bold;
                     font-size: 14px;
                     color: rgb(0, 0, 0);
+                    margin: 0 30px;
                 }
                 
                 fieldset {
@@ -144,14 +141,14 @@
                 
                 input {
                     font-family: 'Nanum Gothic';
-                    font-size: 18px;
-                    font-weight: bold;
-                    padding: 3px 8px;
-                    border: 1px solid rgb(226, 217, 217);
+                    font-size: 16px;
+                    padding: 15px 3px;
+                    border: 1px solid rgb(171, 171, 171);
                     border-radius: 2px;
                     width: 100%;
                     height: 30px;
                     outline: none;
+                    box-sizing: border-box;
                 }
                 
                 input:hover {
@@ -169,15 +166,39 @@
                 
                 #input-icon ion-icon {
                     position: absolute;
-                    top: 30px;
-                    left: 325px;
+                    top: 29px;
+                    left: 275px;
                 }
                 
                 #unlock-icon {
                     color: rgba(128, 128, 128, 0.502);
-                    font-size: 25px;
+                    font-size: 22px;
                 }
                 
                 #disclaimer {
                     font-size: 11px;
+                }
+                
+                #create-account-btn {
+                    width: 100%;
+                    font-size: 16px;
+                    border: none;
+                    box-shadow: 0 1px 2px 0 grey;
+                }
+                
+                #statement {
+                    font-size: 12px;
+                    margin: 35px 20px;
+                    line-height: 25px;
+                    color: grey;
+                }
+                /*-------------MAIN-SECT-FOOTER------------*/
+                
+                footer {
+                    background-color: rgb(241, 241, 252);
+                    font-size: 10px;
+                }
+                
+                #footer-container {
+                    padding: 20px;
                 }

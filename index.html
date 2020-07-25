@@ -19,8 +19,8 @@
                 </div>
                 <div class="header-column">
                     <div>
-                        <button class="btn" type="submit">
-                    <ion-icon class="lock" name="lock-closed"></ion-icon>Sign In</button>
+                        <button type="submit" class="btn">
+                        <ion-icon class="lock" name="lock-closed"></ion-icon>Sign In</button>
                     </div>
                 </div>
             </div>
@@ -52,17 +52,26 @@
                     <a href="#"><span class="links-info">Learn more</span></a>
                 </div>
                 <div class="input-fields-container">
-                    <fieldset> <label for="email">Email address</label>
-                        <input type="email" class="input-field" id="email" name="email"></fieldset>
-                    <fieldset><label for="phone">Phone(recommended)</label>
-                        <input type="tel" class="input-field" id="phone" name="phone">Standard call, messaging and data rates may apply.</fieldset>
-                    <fieldset><label for="password ">Password</label>
-                        <input type="password" class="input-field" id="pass" name="password">
+                    <fieldset class="fieldset-padding">
+                        <label for="email">Email address</label>
+                        <input type="email" class="input-field" id="email" name="email" value=""></fieldset>
+                    <fieldset class="fieldset-padding">
+                        <label for="tel">Phone(recommended)</label>
+                        <input type="tel" class="input-field" id="tel" name="phone" value="">
+                        <span id="disclaimer">Standard call, messaging and data rates may apply.</span>
                     </fieldset>
+                    <fieldset class="fieldset-padding">
+                        <div id="input-icon">
+                            <label for="password">Password</label>
+                            <input type="password" class="input-field" id="password" name="password" value="">
+                            <ion-icon id="unlock-icon" name="lock-open-outline"></ion-icon>
+                        </div>
+                    </fieldset>
+
                 </div>
                 <div>
-                    <button class="btn" id="create-account" type="submit">
-            <ion-icon class="lock" name="lock-closed"></ion-icon>Create Account</button>
+                    <button type="submit" class="btn" id="create-account">
+                    <ion-icon class="lock" name="lock-closed"></ion-icon>Create Account</button>
                 </div>
 
                 <div id="statement">

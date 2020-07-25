@@ -1,230 +1,236 @@
-                @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@300&family=Prompt:wght@800&family=Roboto:wght@100;300&display=swap');
-                /*-----------MAIN-INFO-----------*/
-                
-                html,
-                body {
-                    font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
-                    background-color: rgb(241, 241, 252);
-                    display: block;
-                }
-                /*-------------SIGN-IN------------*/
-                
-                section {
-                    text-align: center;
-                }
-                
-                #wrapper {
-                    height: 40px;
-                    box-sizing: border-box;
-                }
-                
-                #header-container {
-                    display: flex;
-                    justify-content: flex-end;
-                    width: 100%;
-                }
-                
-                .header-column {
-                    font-family: 'Roboto';
-                    font-size: 12px;
-                    line-height: 20px;
-                    box-sizing: border-box;
-                    margin: 10px 30px 10px -20px;
-                    text-align: right;
-                }
-                
-                #nav-link {
-                    color: rgb(46, 124, 193);
-                    text-decoration: none;
-                }
-                
-                .btn {
-                    padding: 9px 20px 9px 12px;
-                    font-family: 'Roboto';
-                    background-color: rgb(46, 124, 193);
-                    color: white;
-                    border: .5px solid black;
-                    border-radius: 5px;
-                    cursor: pointer;
-                }
-                
-                .lock {
-                    padding: 0 10px;
-                }
-                /*-------------MAIN-SECT-TITLE------------*/
-                
-                main,
-                header {
-                    text-align: center;
-                    margin-top: 20px;
-                }
-                
-                .title {
-                    font-family: 'Prompt';
-                    margin-top: 100px;
-                    font-size: 40px;
-                    color: rgb(155, 155, 155);
-                }
-                
-                .list {
-                    display: flex;
-                    justify-content: center;
-                }
-                
-                .space {
-                    padding: 5px;
-                    font-size: 18px;
-                    color: rgb(92, 92, 92);
-                }
-                
-                .icon {
-                    border-radius: 50%;
-                    font-size: 15px;
-                    padding: 5px;
-                    color: white;
-                    margin: 0 5px -9px 0;
-                }
-                
-                #leaf {
-                    background-color: rgb(8, 165, 144);
-                }
-                
-                #books {
-                    background-color: rgb(41, 170, 5);
-                }
-                
-                #check {
-                    background-color: rgb(244, 10, 10);
-                }
-                /*-------------MAIN-SECT-SURVEY------------*/
-                
-                .survey-container {
-                    border: 1px solid rgb(201, 198, 198);
-                    background-color: white;
-                    margin: 20px 540px;
-                    box-sizing: border-box;
-                }
-                
-                .container-title {
-                    margin: 30px 0;
-                    font-family: 'Nunito';
-                    color: rgb(107, 104, 104);
-                }
-                
-                .info {
-                    font-size: 14px;
-                    color: rgb(92, 92, 92);
-                }
-                
-                .links-info {
-                    font-size: 12px;
-                    color: rgb(15, 129, 191);
-                }
-                
-                a {
-                    text-decoration: none;
-                }
-                
-                .input-fields-container {
-                    font-family: 'Roboto';
-                    font-weight: bold;
-                    font-size: 14px;
-                    color: rgb(0, 0, 0);
-                    margin: 0 30px;
-                }
-                
-                fieldset {
-                    display: flex;
-                    flex-direction: row;
-                    text-align: left;
-                }
-                
-                .fieldset-padding {
-                    padding: 20px 0;
-                }
-                
-                input {
-                    font-family: 'Nanum Gothic';
-                    font-size: 16px;
-                    padding: 15px 3px;
-                    border: 1px solid rgb(171, 171, 171);
-                    border-radius: 2px;
-                    width: 100%;
-                    height: 30px;
-                    outline: none;
-                    box-sizing: border-box;
-                }
-                
-                input:hover {
-                    border: 1px solid rgba(23, 137, 243, 0.644);
-                    box-shadow: 0 0 10px 1px rgba(72, 156, 235, 0.507);
-                }
-                
-                .input-field {
-                    margin: 10px 0;
-                }
-                
-                #input-icon {
-                    position: relative;
-                }
-                
-                #input-icon ion-icon {
-                    position: absolute;
-                    top: 29px;
-                    left: 275px;
-                }
-                
-                #unlock-icon {
-                    color: rgba(128, 128, 128, 0.502);
-                    font-size: 22px;
-                }
-                
-                #disclaimer {
-                    font-size: 11px;
-                }
-                
-                #create-account-btn {
-                    width: 100%;
-                    font-size: 16px;
-                    border: none;
-                    box-shadow: 0 1px 2px 0 grey;
-                }
-                
-                #statement {
-                    font-size: 12px;
-                    margin: 35px 20px;
-                    line-height: 25px;
-                    color: grey;
-                }
-                /*-------------MAIN-SECT-FOOTER------------*/
-                
-                footer {
-                    background-color: rgb(241, 241, 252);
-                    font-size: 10px;
-                }
-                
-                #footer-container {
-                    padding: 20px;
-                }
-                /*-------------BOTTOM------------*/
-                
-                #bottom-container {
-                    margin: 20px 350px;
-                    font-size: 12px;
-                    line-height: 20px;
-                    color: rgb(89, 89, 89);
-                }
-                
-                #bottom-links {
-                    display: flex;
-                    justify-content: center;
-                }
-                
-                .bottom-links-flex {
-                    padding: 0 10px;
-                    color: rgb(89, 89, 89);
-                }
-                
-                .bottom-links-flex:hover {
-                    text-decoration: underline;
-                }
+                            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito:wght@300&family=Prompt:wght@800&family=Roboto:wght@100;300&display=swap');
+                            /*-----------MAIN-INFO-----------*/
+                            
+                            html,
+                            body {
+                                font-family: 'Nanum Gothic', 'Nunito', 'Prompt', 'Roboto', sans-serif;
+                                background-color: rgb(241, 241, 252);
+                                display: block;
+                            }
+                            /*-------------SIGN-IN------------*/
+                            
+                            section {
+                                text-align: center;
+                            }
+                            
+                            #wrapper {
+                                height: 40px;
+                                box-sizing: border-box;
+                            }
+                            
+                            #header-container {
+                                display: flex;
+                                justify-content: flex-end;
+                                width: 100%;
+                            }
+                            
+                            .header-column {
+                                font-family: 'Roboto';
+                                font-size: 12px;
+                                line-height: 20px;
+                                box-sizing: border-box;
+                                margin: 10px 30px 10px -20px;
+                                text-align: right;
+                            }
+                            
+                            #nav-link {
+                                color: rgb(46, 124, 193);
+                                text-decoration: none;
+                            }
+                            
+                            .btn {
+                                padding: 9px 20px 9px 12px;
+                                font-family: 'Roboto';
+                                background-color: rgb(46, 124, 193);
+                                color: white;
+                                border: .5px solid black;
+                                border-radius: 5px;
+                                cursor: pointer;
+                            }
+                            
+                            .lock {
+                                padding: 0 10px;
+                            }
+                            /*-------------MAIN-SECT-TITLE------------*/
+                            
+                            main,
+                            header {
+                                text-align: center;
+                                margin-top: 20px;
+                            }
+                            
+                            .title {
+                                font-family: 'Prompt';
+                                margin-top: 100px;
+                                font-size: 40px;
+                                color: rgb(155, 155, 155);
+                            }
+                            
+                            .list {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            .space {
+                                padding: 5px;
+                                font-size: 18px;
+                                color: rgb(92, 92, 92);
+                            }
+                            
+                            .icon {
+                                border-radius: 50%;
+                                font-size: 15px;
+                                padding: 5px;
+                                color: white;
+                                margin: 0 5px -9px 0;
+                            }
+                            
+                            #leaf {
+                                background-color: rgb(8, 165, 144);
+                            }
+                            
+                            #books {
+                                background-color: rgb(41, 170, 5);
+                            }
+                            
+                            #check {
+                                background-color: rgb(244, 10, 10);
+                            }
+                            /*-------------MAIN-SECT-SURVEY------------*/
+                            
+                            #survey-container {
+                                border: 1px solid rgb(201, 198, 198);
+                                background-color: white;
+                                margin: 20px 540px;
+                                box-sizing: border-box;
+                            }
+                            
+                            @media(min-width:1200px) {
+                                #survey-container {
+                                    width: 365px;
+                                }
+                            }
+                            
+                            .container-title {
+                                margin: 30px 0;
+                                font-family: 'Nunito';
+                                color: rgb(107, 104, 104);
+                            }
+                            
+                            .info {
+                                font-size: 14px;
+                                color: rgb(92, 92, 92);
+                            }
+                            
+                            .links-info {
+                                font-size: 12px;
+                                color: rgb(15, 129, 191);
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                            }
+                            
+                            .input-fields-container {
+                                font-family: 'Roboto';
+                                font-weight: bold;
+                                font-size: 14px;
+                                color: rgb(0, 0, 0);
+                                margin: 0 30px;
+                            }
+                            
+                            fieldset {
+                                display: flex;
+                                flex-direction: row;
+                                text-align: left;
+                            }
+                            
+                            .fieldset-padding {
+                                padding: 20px 0;
+                            }
+                            
+                            input {
+                                font-family: 'Nanum Gothic';
+                                font-size: 16px;
+                                padding: 15px 3px;
+                                border: 1px solid rgb(171, 171, 171);
+                                border-radius: 2px;
+                                width: 100%;
+                                height: 30px;
+                                outline: none;
+                                box-sizing: border-box;
+                            }
+                            
+                            input:hover {
+                                border: 1px solid rgba(23, 137, 243, 0.644);
+                                box-shadow: 0 0 10px 1px rgba(72, 156, 235, 0.507);
+                            }
+                            
+                            .input-field {
+                                margin: 10px 0;
+                            }
+                            
+                            #input-icon {
+                                position: relative;
+                            }
+                            
+                            #input-icon ion-icon {
+                                position: absolute;
+                                top: 29px;
+                                left: 275px;
+                            }
+                            
+                            #unlock-icon {
+                                color: rgba(128, 128, 128, 0.502);
+                                font-size: 22px;
+                            }
+                            
+                            #disclaimer {
+                                font-size: 11px;
+                            }
+                            
+                            #create-account-btn {
+                                width: 100%;
+                                font-size: 16px;
+                                border: none;
+                                box-shadow: 0 1px 2px 0 grey;
+                            }
+                            
+                            #statement {
+                                font-size: 12px;
+                                margin: 35px 20px;
+                                line-height: 25px;
+                                color: grey;
+                            }
+                            /*-------------MAIN-SECT-FOOTER------------*/
+                            
+                            footer {
+                                background-color: rgb(241, 241, 252);
+                                font-size: 10px;
+                            }
+                            
+                            #footer-container {
+                                padding: 20px;
+                            }
+                            /*-------------BOTTOM------------*/
+                            
+                            #bottom-container {
+                                margin: 20px 350px;
+                                font-size: 12px;
+                                line-height: 20px;
+                                color: rgb(89, 89, 89);
+                            }
+                            
+                            #bottom-links {
+                                display: flex;
+                                justify-content: center;
+                            }
+                            
+                            .bottom-links-flex {
+                                padding: 0 10px;
+                                color: rgb(89, 89, 89);
+                            }
+                            
+                            .bottom-links-flex:hover {
+                                text-decoration: underline;
+                            }

@@ -9,12 +9,16 @@
                 }
                 /*-------------SIGN-IN------------*/
                 
+                section {
+                    text-align: center;
+                }
+                
                 #wrapper {
                     height: 40px;
                     box-sizing: border-box;
                 }
                 
-                .header-container {
+                #header-container {
                     display: flex;
                     justify-content: flex-end;
                     width: 100%;
@@ -201,4 +205,26 @@
                 
                 #footer-container {
                     padding: 20px;
+                }
+                /*-------------BOTTOM------------*/
+                
+                #bottom-container {
+                    margin: 20px 350px;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: rgb(89, 89, 89);
+                }
+                
+                #bottom-links {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .bottom-links-flex {
+                    padding: 0 10px;
+                    color: rgb(89, 89, 89);
+                }
+                
+                .bottom-links-flex:hover {
+                    text-decoration: underline;
                 }

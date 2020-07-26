@@ -101,13 +101,19 @@
                             #survey-container {
                                 border: 1px solid rgb(201, 198, 198);
                                 background-color: white;
-                                margin: 20px 540px;
+                                margin: 20px 36%;
                                 box-sizing: border-box;
                             }
                             
-                            @media(min-width:1200px) {
+                            @media(min-width:500px) {
                                 #survey-container {
-                                    width: 365px;
+                                    width: 24rem;
+                                }
+                            }
+                            
+                            @media(max-width:1440px) {
+                                #survey-container {
+                                    margin: auto;
                                 }
                             }
                             
@@ -176,8 +182,8 @@
                             
                             #input-icon ion-icon {
                                 position: absolute;
-                                top: 29px;
-                                left: 275px;
+                                top: 43%;
+                                left: 90%;
                             }
                             
                             #unlock-icon {
@@ -215,7 +221,7 @@
                             /*-------------BOTTOM------------*/
                             
                             #bottom-container {
-                                margin: 20px 350px;
+                                margin: 20px 25%;
                                 font-size: 12px;
                                 line-height: 20px;
                                 color: rgb(89, 89, 89);
